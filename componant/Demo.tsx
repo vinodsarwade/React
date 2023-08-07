@@ -13,9 +13,12 @@ export const Demo=(props:any)=>
         {props.name}
         {props.address}
         {props.num}
-        {props.empId}
+        {props.empId} 
+        
     </div>)
 }
+
+//array example
 
 interface product
 {
@@ -26,10 +29,10 @@ interface product
 export const Arr = () =>
 {
     const products:product[]=[
-        {id:1001,name:"laptop",price:7000},
-        {id:1002,name:"headphone",price:8000},
-        {id:1003,name:"tablet",price:1100},
-        {id:1004,name:"tv",price:2000}];
+        {id:1001,name:"laptop", price:7000},
+        {id:1002,name:"headphone", price:8000},
+        {id:1003,name:"tablet", price:1100},
+        {id:1004,name:"tv", price:2000}];
 
         return(
             <div>
@@ -37,9 +40,9 @@ export const Arr = () =>
 
                     <th>
 
-                        <td>Name</td>
+                        <td>Name of instrument  </td>
 
-                        <td>Price</td>
+                        <td>Price of instrument</td>
 
                     </th>    
                 
